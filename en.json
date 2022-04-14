@@ -1,0 +1,40 @@
+{
+  "global": {
+    "actions":{
+       "cancel":"Cancel",
+       "confirm":"Confirm",
+       "dismiss":"Dismiss",
+       "no":"No",
+       "ok":"OK",
+       "yes":"Yes"
+    }
+ },
+  "pages":{
+     "home":{
+        "title":"KAdmin-UI",
+        "subtitle":"This is the KAdmin UI landing page.",
+        "paragraph":"This paragraph was comes from {package} and includes injected text from the translation file.",
+        "links":{
+           "i18n":{
+              "link":"https://vue-i18n.intlify.dev/guide/advanced/component.html#basic-usage",
+              "linkText":"vue-i18n component",
+              "text":"Click to view the {0} docs."
+           }
+        }
+     },
+     "organizations":{
+        "title":"Organizations",
+        "subtitle":"All Organizations",
+        "errors":{
+           
+        }
+     },
+     "users":{
+        "title":"Users",
+        "subtitle":"All Users",
+        "errors":{
+           
+        }
+     }
+  }
+}
